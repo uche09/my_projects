@@ -1,2 +1,1 @@
-# my_projects
-This is where I'll be saving my personal development projects 
+This is where I'll be saving my personal development projects so I can track my progress and improvement.
