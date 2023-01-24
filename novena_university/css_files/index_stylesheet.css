@@ -48,7 +48,7 @@ body{
 
 /* navigation menu */
 nav {
-    margin: 0.7rem;
+    margin: 0.7rem 0.4rem;
     width: 80vw;
     height: 5.5rem;
     position: sticky;
@@ -169,4 +169,160 @@ nav a:active {
 }
 .vision span {
     font-weight: bold;
+}
+
+
+/* vice chancellor */
+.vice {
+    background-color: rgba(0,0,0,0.1);
+    margin: 7rem 0 10rem 0; 
+}
+.vice img {
+    margin: 1.5rem 14% 1.5rem 14%;
+    height: 1100px;
+}
+
+
+/* Dean Of Students */
+.dean {
+    background-color: rgba(0,0,0,0.1);
+    margin: 7rem 0 10rem 0;
+    padding-bottom: 5rem;
+}
+.dean img {
+    margin: 1.5rem 9.5% 0 9.5%;
+    height: 1100px;
+}
+.dean figcaption {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.dean figcaption h3{
+    line-height: 1.4rem;
+}
+.dean figcaption h4{
+    border-bottom: solid 5px whitesmoke;
+    border-colr: whitesmoke;
+    display: inline;
+    font-size: 1.6rem;
+}
+
+/* colleges */
+.col {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.click {
+    color: whitesmoke;
+    font-size: 2rem;
+    margin: 0rem 1rem 5rem 1rem;
+    display: block;
+}
+
+/* College of Health */
+.CHS img {
+    height: 900px;
+    margin: 1.5rem 9% 0 14%;
+}
+.CHS h3 {
+    position: relative;
+    bottom: 12rem;
+    left: 8.9rem;
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+    font-size: 3.3rem;
+    height: 5rem;
+    padding: 3rem 0;
+    display: inline-block;
+    width: 68%;
+    text-align: center;
+}
+
+/* College of Natural And Applied Science */
+.CNAS img {
+    height: 900px;
+    width: 800px;
+    margin: 1.5rem 9% 0 9%;
+}
+.CNAS h3 {
+    position: relative;
+    bottom: 15rem;
+    left: 6rem;
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+    font-size: 3.5rem;
+    height: 7rem;
+    width: 79%;
+    padding: 3rem 0;
+    dispay: inline-block;
+    text-align: center;
+}
+
+/* College of Computing And Telecommunication */
+.CCT img {
+    height: 700px;
+    width: 98%;
+    margin: 1.5rem 1% 0 1%;
+}
+.CCT h3 {
+    position: relative;
+    bottom: 15rem;
+    left: 3rem;
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+    font-size: 3.5rem;
+    height: 7rem;
+    width: 90%;
+    padding: 3rem 0;
+    dispay: inline-block;
+    text-align: center;
+}
+
+/* College of Law */
+.law img {
+    height: 600px;
+    width: 98%;
+    margin: 1.5rem 1% 0 1%;
+}
+.law h3 {
+    position: relative;
+    bottom: 12rem;
+    left: 3rem;
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+    font-size: 4rem;
+    height: 5rem;
+    padding: 3rem 0;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+}
+
+/* College of Management And Social Science */
+.CMSS img {
+    height: 1100px;
+    margin: 1.5rem 8% 0 8%;
+}
+.CMSS h3 {
+    position: relative;
+    bottom: 15rem;
+    left: 5.8rem;
+    background-color: rgba(0,0,0,0.4);
+    color: whitesmoke;
+    font-size: 3.5rem;
+    height: 7rem;
+    width: 81%;
+    padding: 3rem 0;
+    dispay: inline-block;
+    text-align: center;
+}
+
+.line {
+    border-bottom: 10px solid whitesmoke;
+    width: 100%;
+    position: relative;
+    bottom: 7rem
 }
