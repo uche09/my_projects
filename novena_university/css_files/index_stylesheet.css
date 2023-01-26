@@ -320,9 +320,122 @@ nav a:active {
     text-align: center;
 }
 
-.line {
+.CMSS .line {
     border-bottom: 10px solid whitesmoke;
     width: 100%;
     position: relative;
-    bottom: 7rem
+    bottom: 7rem;
+    margin-bottom: 7rem;
+}
+
+
+/* footer */
+
+/* Award */
+.award {
+    color: whitesmoke;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+.award h2 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+.award .line {
+    border-bottom: 6px solid #11f100;
+    border-radius: 5px;
+    width: 23rem;
+    position: relative;
+    top: -4rem;
+    left: 19rem;
+    z-index: -1; 
+}
+.award p {
+    margin: 2rem 1rem 2rem 2rem;
+    text-align: justify;
+    font-size: 1.5rem;
+    
+}
+.award img {
+    height: 60px;
+    margin-bottom: -1rem;
+    disply: inline-block;
+}
+.award .gold {
+    color: #e69712;
+    font-style: italic;
+}
+.award li {
+   margin-left: 4.5rem;
+   margin-top: 0;
+   font-size: 0.9rem;
+}
+
+/* Social media */
+.social {
+    background: #00000031;
+    margin-bottom: 7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social img {
+    height: 120px;
+}
+.social .fb {
+    height: 100px;
+}
+
+
+/* contact info */
+.info {
+    color: whitesmoke;
+    padding: 2rem;
+}
+.info img {
+    height: 400px;
+    margin-bottom: 4rem;
+}
+.info h3 {
+    color: green;
+    font-size: 2.4rem;
+    font-family: ariel;
+}
+.info .line {
+    border-bottom: 2.5px solid white;
+    width: 10rem;
+    position: relative;
+    left: 0.6rem;
+    margin-top: -0.1rem;
+    margin-bottom: 3rem;
+}
+.info p {
+    font-size: 1.4rem;
+    margin-bottom: 6rem;
+    font-style: italic;
+}
+.info .copyright {
+    font-size: 1.2rem;
+    opacity: 0.8;
+    display: block;
+    text-align: center;
+}
+
+.arrow_up{
+    background: #00000061;
+    display: inline;
+    position: fixed;
+    bottom: 7rem;
+    right: 2%;
+}
+.arrow_up img{
+    height: 110px;
+}
+.arrow_up img:hover {
+    height: 126.5px;
+    background: inherit;
+    background-position: cover;
+    background-repeat: no-repeat;
 }
